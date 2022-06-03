@@ -1,0 +1,236 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+:root {
+    --bg-gray: rgb(238, 238, 238);
+    --text-gray: #a8a4a4;
+    --color-primary:#000000;
+    --white: rgb(206, 203, 203);
+    --text-light-gray: rgb(129, 127, 127);
+    --color-secundary: #289b3b;
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+htmal, body {
+    background-color: var(--bg-gray);
+    
+}
+
+
+header {
+    background-color: var(--color-primary);
+    color: var(--white);
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+a, a:hover  {
+    text-decoration: none;
+    color: unset;
+}
+
+.GigaMais-contact-container {
+    display: flex;
+    align-items: center;  
+}
+.GigaMais-contact-container img {
+    margin-right: 20px;
+}
+
+
+.GigaMais-central-bottom {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-secundary);
+}
+
+#GigaMais-card-list {
+    padding: 0 20px;
+}
+
+.GigaMais-card {
+    width: 100%;
+    
+}
+
+.GigaMais-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.GigaMais-card-description {
+    background-color: var(--white);
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+    height: 200px;
+
+}
+
+.GigaMais-card-description h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.GigaMais-card-description-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GigaMais-card-description-bottom h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--star-yellow);
+}
+
+.GigaMais-card-description-bottom img {
+    width: 22px;
+}
+
+.GigaMais-card-description-bottom p {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-light-gray);
+    margin-bottom: 10px;
+}
+
+.GigaMais-btn, GigaMais-btn:hover {
+    width: 180px;
+    height: 40px;
+    background-color: var(--color-secundary);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 0;
+}
+
+
+.GigaMais-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+}
+
+.GigaMais-form-description{
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.GigaMais-fomr {
+    width: 100%;
+}
+
+.GigaMais-form-description h3 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.GigaMais-form-btn-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.GigaMais-form-group {
+    margin-bottom: 20px;
+}
+
+.GigaMais-form-group label {
+    font-size: 12px;
+    color: var(--text-light-gray);
+}
+
+.GigaMais-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.GigaMais-pagination-box {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GigaMais-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+.GigaMais-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GigaMais-pagination-box button img {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(33%) saturate(4033%) hue-rotate(228deg) brightness(105%) contrast(84%);
+
+}
+
+.GigaMais-pagination-box button:disabled {
+    border: 1px solid var(--text-light-gray);
+}
+
+.GigaMais-pagination-box button:disabled img {
+    filter: unset;
+}
+
+.GigaMais-flip-horizontal{
+    transform: rotate(180deg);
+}
