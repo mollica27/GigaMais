@@ -154,7 +154,7 @@ a, a:hover  {
 }
 
 .GigaMais-form-description{
-    background-color: var(--white);
+    background-color: var(black);
     padding: 20px;
     display: flex;
     flex-direction: column;
