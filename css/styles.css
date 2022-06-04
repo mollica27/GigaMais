@@ -22,11 +22,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-htmal, body {
-    background-color: var(--bg-gray);
-    
-}
-
 
 header {
     background-color: var(--color-primary);
@@ -59,8 +54,10 @@ a, a:hover  {
 
 .GigaMais-contact-container {
     display: flex;
-    align-items: center;  
+    align-items: center; 
+     
 }
+
 .GigaMais-contact-container img {
     margin-right: 10px;
     padding: 5px;
@@ -76,12 +73,15 @@ a, a:hover  {
     font-weight: 700;
 }
 
+
+
 #GigaMais-card-list {
-    padding: 0 20px;
+    align-items: center;
 }
 
 .GigaMais-card {
-    width: 100%;
+    width: 250px;
+    margin: 20%;
     
 }
 
@@ -103,7 +103,7 @@ a, a:hover  {
 }
 
 .GigaMais-card-description h3 {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
     text-align: center;
@@ -116,15 +116,6 @@ a, a:hover  {
     align-items: center;
 }
 
-.GigaMais-card-description-bottom h4 {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--star-yellow);
-}
-
-.GigaMais-card-description-bottom img {
-    width: 22px;
-}
 
 .GigaMais-card-description-bottom p {
     font-size: 12px;
@@ -134,11 +125,11 @@ a, a:hover  {
 }
 
 .GigaMais-btn, GigaMais-btn:hover {
-    width: 180px;
+    width: 150px;
     height: 40px;
     background-color: var(--color-secundary);
     color: var(--white);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     display: flex;
     align-items: center;
@@ -194,44 +185,14 @@ a, a:hover  {
     justify-content: center;
 }
 
-.GigaMais-pagination-box {
-    width: 180px;
+.container-GigaMais-wifi-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
+    border-radius: 0 0 8px 8px;
+    padding: 10px 20px 20px 20px;
+    height: 50px;
 }
 
-.GigaMais-pagination-box p {
-    margin: 0;
-    font-size: 12px;
-    color: var(--color-primary);
-    font-weight: 400;
-}
 
-.GigaMais-pagination-box button {
-    width: 40px;
-    height: 40px;
-    border: 1px solid var(--color-primary);
-    border-radius: 4px;
-    background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.GigaMais-pagination-box button img {
-    filter: brightness(0) saturate(100%) invert(23%) sepia(33%) saturate(4033%) hue-rotate(228deg) brightness(105%) contrast(84%);
-
-}
-
-.GigaMais-pagination-box button:disabled {
-    border: 1px solid var(--text-light-gray);
-}
-
-.GigaMais-pagination-box button:disabled img {
-    filter: unset;
-}
-
-.GigaMais-flip-horizontal{
-    transform: rotate(180deg);
-}
