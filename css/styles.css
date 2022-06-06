@@ -1,5 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap');
+
 
 :root {
     --bg-gray: rgb(238, 238, 238);
@@ -14,7 +16,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,6 +43,7 @@ nav h1 {
     font-size: 24px;
     font-weight: 700;
 }
+
 
 nav a {
     font-size: 12px;
@@ -75,8 +78,9 @@ a, a:hover  {
 
 
 
-#GigaMais-card-list {
+.GigaMais-card-list {
     align-items: center;
+    justify-content: center;
 }
 
 .GigaMais-card {
@@ -86,7 +90,7 @@ a, a:hover  {
 }
 
 .GigaMais-card img {
-    width: 100%;
+    width: 120%;
     border-radius: 8px 8px 0 0;
 }
 
@@ -195,4 +199,12 @@ a, a:hover  {
     height: 50px;
 }
 
+
+main.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    
+}
 
