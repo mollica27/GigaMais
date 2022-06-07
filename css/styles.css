@@ -1,22 +1,31 @@
 
+<<<<<<< HEAD
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap');
 
+=======
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap');
+>>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
 
 :root {
-    --bg-gray: rgb(238, 238, 238);
+    --bg-gray: #f9f6ff;
     --text-gray: #a8a4a4;
     --color-primary:#000000;
-    --white: rgb(206, 203, 203);
+    --white: #ffff;
     --text-light-gray: rgb(129, 127, 127);
     --color-secundary: #3ca300;
 
 }
 
 * {
-    margin: 0;
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
+<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
+=======
+    font-family: "Poppins", sans-serif;
+>>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -76,6 +85,7 @@ a, a:hover  {
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 
 
 .GigaMais-card-list {
@@ -113,6 +123,8 @@ a, a:hover  {
     text-align: center;
     margin-bottom: 20px;
 }
+=======
+>>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
 
 .GigaMais-card-description-bottom {
     display: flex;
@@ -142,53 +154,77 @@ a, a:hover  {
     border: 0;
 }
 
-
-.GigaMais-form-container {
-    padding: 40px 0;
-    max-width: 480px;
+main.cards {
+    display: flex;
+    padding: 32px;
+    
 }
 
+<<<<<<< HEAD
 .GigaMais-form-description{
     background-color: var(black);
     padding: 20px;
+=======
+main.cards section.card {
+>>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 0 0 8px 8px;
+    text-align: center;
+    background: var(--white);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 468px;
+    margin-left: 32px;
+
 }
 
-.GigaMais-fomr {
+main.cards section.card:first-child {
+    margin-left: 0;
+}
+
+main.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card img {
     width: 100%;
 }
 
-.GigaMais-form-description h3 {
-    font-size: 15px;
-    font-weight: 700;
+main.cards section.card h3 {
+    font-size: 100%;
+    margin: 16px 0;
 }
 
-.GigaMais-form-btn-container {
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+main.cards section.card span {
+    font-weight: 300;
+    max-width: 240px;
+    font-size: 80%;
+    margin-bottom: 16px;
 }
 
-.GigaMais-form-group {
-    margin-bottom: 20px;
+
+main.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: var(--white);
 }
 
-.GigaMais-form-group label {
-    font-size: 12px;
-    color: var(--text-light-gray);
+main.cards section.card.teste button {
+    background: linear-gradient(to right, #3ca300,#2d7504 );
 }
 
-.GigaMais-pagination-container {
-    padding: 15px 0;
-    display: flex;
-    justify-content: center;
+main.cards section.card.potencia button {
+    background: linear-gradient(to right, #3ca300,#2d7504 );
 }
 
+<<<<<<< HEAD
 .container-GigaMais-wifi-container {
     display: flex;
     flex-direction: column;
@@ -208,3 +244,38 @@ main.cards {
     
 }
 
+=======
+main.cards section.card.sem button {
+    background: linear-gradient(to right, #3ca300,#2d7504 );
+}
+
+main.cards section.card.teste {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+
+main.cards section.card.potencia {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+
+main.cards section.card.sem {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+@media screen and (max-width: 720px) {
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
+}
+>>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
