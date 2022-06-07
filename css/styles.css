@@ -1,11 +1,5 @@
 
-<<<<<<< HEAD
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap');
-
-=======
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap');
->>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
 
 :root {
     --bg-gray: #f9f6ff;
@@ -21,17 +15,12 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-<<<<<<< HEAD
-    font-family: 'Poppins', sans-serif;
-=======
     font-family: "Poppins", sans-serif;
->>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-
 
 
 header {
@@ -64,6 +53,10 @@ a, a:hover  {
     color: unset;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .GigaMais-contact-container {
     display: flex;
     align-items: center; 
@@ -85,46 +78,6 @@ a, a:hover  {
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-
-
-.GigaMais-card-list {
-    align-items: center;
-    justify-content: center;
-}
-
-.GigaMais-card {
-    width: 250px;
-    margin: 20%;
-    
-}
-
-.GigaMais-card img {
-    width: 120%;
-    border-radius: 8px 8px 0 0;
-}
-
-.GigaMais-card-description {
-    background-color: var(--white);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 0 0 8px 8px;
-    padding: 10px 20px 20px 20px;
-    height: 200px;
-
-}
-
-.GigaMais-card-description h3 {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-=======
->>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
 
 .GigaMais-card-description-bottom {
     display: flex;
@@ -140,6 +93,7 @@ a, a:hover  {
     margin-bottom: 10px;
 }
 
+
 .GigaMais-btn, GigaMais-btn:hover {
     width: 150px;
     height: 40px;
@@ -154,19 +108,16 @@ a, a:hover  {
     border: 0;
 }
 
+article main {
+    margin-left: 3cm;
+}
+
 main.cards {
     display: flex;
     padding: 32px;
-    
 }
 
-<<<<<<< HEAD
-.GigaMais-form-description{
-    background-color: var(black);
-    padding: 20px;
-=======
 main.cards section.card {
->>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,6 +167,8 @@ main.cards section.card button {
     color: var(--white);
 }
 
+
+
 main.cards section.card.teste button {
     background: linear-gradient(to right, #3ca300,#2d7504 );
 }
@@ -224,30 +177,23 @@ main.cards section.card.potencia button {
     background: linear-gradient(to right, #3ca300,#2d7504 );
 }
 
-<<<<<<< HEAD
-.container-GigaMais-wifi-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 0 0 8px 8px;
-    padding: 10px 20px 20px 20px;
-    height: 50px;
-}
-
-
-main.cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 32px;
-    
-}
-
-=======
 main.cards section.card.sem button {
     background: linear-gradient(to right, #3ca300,#2d7504 );
 }
+
+main.cards section.card.fatura button {
+    background: linear-gradient(to right, #3ca300,#2d7504 );
+}
+
+main.cards section.card.jogos button {
+    background: linear-gradient(to right, #3ca300,#2d7504 );
+}
+
+main.cards section.card.fale button {
+    background: linear-gradient(to right, #3ca300,#2d7504 );
+}
+
+
 
 main.cards section.card.teste {
     box-shadow: 20px 20px 50px -30px #5cc753;
@@ -260,6 +206,20 @@ main.cards section.card.potencia {
 main.cards section.card.sem {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
+
+main.cards section.card.fatura {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+
+main.cards section.card.jogos {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+
+main.cards section.card.fale {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+
+
 @media screen and (max-width: 720px) {
     main.cards {
         flex-direction: column;
@@ -278,4 +238,3 @@ main.cards section.card.sem {
         font-size: 70%;
     }
 }
->>>>>>> ca3a70f486d541224b0f4e8a358d44c409382d79
