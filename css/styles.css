@@ -226,6 +226,12 @@ main.cards section.card.fale {
 
 
 @media screen and (max-width: 720px) {
+    nav.container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     main.cards {
         flex-direction: column;
     }
