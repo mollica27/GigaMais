@@ -55,6 +55,13 @@ a, a:hover  {
 
 body {
     overflow-x: hidden;
+    
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    
 }
 
 .GigaMais-contact-container {
@@ -104,17 +111,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 8px;
     border: 0;
 }
 
-article main {
-    margin-left: 3cm;
-}
 
 main.cards {
     display: flex;
     padding: 32px;
+
 }
 
 main.cards section.card {
