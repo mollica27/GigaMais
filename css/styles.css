@@ -8,6 +8,7 @@
     --white: #ffff;
     --text-light-gray: rgb(129, 127, 127);
     --color-secundary: #3ca300;
+    --footer-color: rgb(231, 225, 225);
 
 }
 
@@ -204,7 +205,7 @@ section.conteudo-txt{
 }
 
 footer {
-    background: var(--color-secundary);
+    background: var(--footer-color);
     position: absolute;
     bottom: 0%;
     width: 100%;
