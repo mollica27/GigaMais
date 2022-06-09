@@ -181,24 +181,7 @@ main.cards section.card.fale {
 }
 
 
-@media screen and (max-width: 720px) {
-    main.cards {
-        flex-direction: column;
-    }
 
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
-
-    main.cards section.card:last-child {
-        margin-bottom: 0;
-    }
-
-    main.cards section.card button {
-        font-size: 70%;
-    }
-}
 
 main.conteudo-principal{
     margin: 10px auto;
@@ -237,4 +220,29 @@ t1 {
 }
 t2 {
     font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    nav.container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+
+    main.cards section.card:last-child {
+        margin-bottom: 0;
+    }
+
+    main.cards section.card button {
+        font-size: 70%;
+    }
 }
