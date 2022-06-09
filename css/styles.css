@@ -12,8 +12,8 @@
 }
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -58,7 +58,9 @@ body {
     
 }
 
-.menu-container {
+div.menu{
+    margin-top: 20vh;
+    margin-bottom: 24vh;
     display: flex;
     justify-content: center;
     
@@ -85,25 +87,6 @@ body {
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-
-
-.GigaMais-card-description-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.GigaMais-card-description-bottom p {
-    font-size: 12px;
-    font-weight: 400;
-    color: var(--text-light-gray);
-    margin-bottom: 10px;
-}
-
-=======
->>>>>>> 90e1d04417aadf0ab2bab564f28ab050456f88f5
 .GigaMais-btn, GigaMais-btn:hover {
     width: 150px;
     height: 40px;
@@ -221,11 +204,12 @@ section.conteudo-txt{
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(241, 241, 241);
+    background: var(--color-secundary);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
+
 .span-txt {
     font-size: 18px;
     font-weight: 300;
@@ -242,7 +226,7 @@ t2 {
 }
 
 @media screen and (max-width: 720px) {
-    nav.container {
+    header {
         display: flex;
         align-items: center;
         justify-content: space-between;
