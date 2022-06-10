@@ -60,7 +60,7 @@ body {
 }
 
 div.menu{
-    margin-top: 20vh;
+    margin-top: 24vh;
     margin-bottom: 24vh;
     display: flex;
     justify-content: center;
@@ -209,15 +209,14 @@ footer {
     height: 90px;
     display: flex;
     align-items: center;
-    
+    display: flex;
+    padding: 0;
+    background: var(--footer-color);
 }
 
 nav.rodape-index {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: relative;
-    bottom: 0%;
     width: 100%;
     background: var(--footer-color);
 }
@@ -246,10 +245,28 @@ t2 {
 }
 
 @media screen and (max-width: 720px) {
-    header {
+    body {
+        width: 100%;
+    }
+
+    .GigaMais-contact-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        padding: 1px;   
+    }
+
+    .GigaMais-contact-container img {
+        margin-right: 5px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 10px 10px 10px 10px;
+        width: 100px;
+    }
+
+    .GigaMais-btn, GigaMais-btn:hover{
+        display: none;
     }
 
     main.cards {
