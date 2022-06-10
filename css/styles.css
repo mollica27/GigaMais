@@ -256,17 +256,11 @@ t2 {
     }
 
     .GigaMais-contact-container img {
-        margin-right: 5px;
-        padding: 2px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        border: 10px 10px 10px 10px;
-        width: 100px;
+       display: none;
     }
 
     .GigaMais-btn, GigaMais-btn:hover{
-        display: none;
+        /* display: none; */
     }
 
     main.cards {
