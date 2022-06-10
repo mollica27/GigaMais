@@ -154,6 +154,7 @@ main.cards section.card button {
     font-size: 80%;
     font-weight: 500;
     color: var(--white);
+    
 }
 
 main.cards section.card.teste{
