@@ -259,10 +259,6 @@ t2 {
        display: none;
     }
 
-    .GigaMais-btn, GigaMais-btn:hover{
-        /* display: none; */
-    }
-
     main.cards {
         flex-direction: column;
     }
