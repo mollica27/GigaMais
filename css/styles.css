@@ -8,12 +8,13 @@
     --white: #ffff;
     --text-light-gray: rgb(129, 127, 127);
     --color-secundary: #3ca300;
+    --footer-color: rgb(231, 225, 225);
 
 }
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -58,7 +59,9 @@ body {
     
 }
 
-.menu-container {
+div.menu{
+    margin-top: 20vh;
+    margin-bottom: 24vh;
     display: flex;
     justify-content: center;
     
@@ -203,11 +206,12 @@ section.conteudo-txt{
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(241, 241, 241);
+    background: var(--footer-color);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
+
 .span-txt {
     font-size: 18px;
     font-weight: 300;
@@ -224,7 +228,7 @@ t2 {
 }
 
 @media screen and (max-width: 720px) {
-    nav.container {
+    header {
         display: flex;
         align-items: center;
         justify-content: space-between;
