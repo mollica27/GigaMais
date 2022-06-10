@@ -145,6 +145,14 @@ main.cards section.card span {
     max-width: 240px;
     font-size: 80%;
     margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+div.text-span {
+
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
