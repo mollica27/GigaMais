@@ -187,6 +187,9 @@ main.cards section.card.fale {
 
 
 main.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 10px auto;
     border-right: 2px solid rgb(241, 241, 241);
     border-left: 2px solid rgb(241, 241, 241);
