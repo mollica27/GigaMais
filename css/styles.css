@@ -56,7 +56,7 @@ a, a:hover  {
 
 body {
     overflow-x: hidden;
-    
+   
 }
 
 div.menu{
@@ -65,6 +65,13 @@ div.menu{
     display: flex;
     justify-content: center;
     
+}
+
+main.cards-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
 }
 
 .GigaMais-contact-container {
@@ -103,13 +110,8 @@ div.menu{
 }
 
 
-main.cards {
-    display: flex;
-    padding: 32px;
 
-}
-
-main.cards section.card {
+section.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,30 +119,30 @@ main.cards section.card {
     background: var(--white);
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    max-height: 468px;
+    height: 30vh;
     margin-left: 32px;
 
 }
 
-main.cards section.card:first-child {
+section.card:first-child {
     margin-left: 0;
 }
 
-main.cards section.card .icon {
+section.card .icon {
     width: 64px;
     height: 64px;
 }
 
-main.cards section.card img {
+section.card img {
     width: 100%;
 }
 
-main.cards section.card h3 {
+section.card h3 {
     font-size: 100%;
     margin: 16px 0;
 }
 
-main.cards section.card span {
+section.card span {
     font-weight: 300;
     max-width: 240px;
     font-size: 80%;
@@ -148,39 +150,27 @@ main.cards section.card span {
 }
 
 
-main.cards section.card button {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: var(--white);
-    
-}
-
-main.cards section.card.teste{
+section.card.teste{
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-main.cards section.card.potencia {
+section.card.potencia {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-main.cards section.card.sem {
+section.card.sem {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-main.cards section.card.fatura {
+section.card.jogos {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-main.cards section.card.jogos {
+section.card.fatura {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-main.cards section.card.fale {
+section.card.fale {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
@@ -207,7 +197,6 @@ section.conteudo-txt{
 
 footer {
     background: var(--footer-color);
-    position: absolute;
     bottom: 0%;
     width: 100%;
 }
@@ -227,27 +216,35 @@ t2 {
     font-size: 20px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and ( max-width: 720px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     header {
+        width: 100%;
+    }
+    
+    nav.container {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
 
-    main.cards {
-        flex-direction: column;
-    }
-
-    main.cards section.card {
+    section.card {
         margin-left: 0;
         margin-bottom: 32px;
     }
 
-    main.cards section.card:last-child {
+    section.card:last-child {
         margin-bottom: 0;
     }
 
-    main.cards section.card button {
+    section.card button {
         font-size: 70%;
     }
 }
