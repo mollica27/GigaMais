@@ -216,7 +216,7 @@ nav.rodape-index {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     bottom: 0%;
     width: 100%;
     background: var(--footer-color);
