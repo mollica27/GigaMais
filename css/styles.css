@@ -191,9 +191,6 @@ main.cards section.card.fale {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-
-
-
 main.conteudo-principal{
     display: flex;
     align-items: center;
@@ -213,6 +210,9 @@ section.conteudo-txt{
     
 }
 
+
+
+
 footer {
     height: 90px;
     display: flex;
@@ -230,11 +230,13 @@ nav.rodape-index {
 }
 
 
-nav.rodape-wifi {
+nav.rodape-wifi{
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 90px;
     width: 100%;
-    background: var(--footer-color);
+    background-color:rgb(241, 241, 241);
     position: relative;
-    margin: 0 auto;
 }
 
 .span-txt {
