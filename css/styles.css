@@ -56,22 +56,15 @@ a, a:hover  {
 
 body {
     overflow-x: hidden;
-   
+    
 }
 
 div.menu{
-    margin-top: 20vh;
+    margin-top: 24vh;
     margin-bottom: 24vh;
     display: flex;
     justify-content: center;
     
-}
-
-main.cards-menu {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-
 }
 
 .GigaMais-contact-container {
@@ -110,8 +103,13 @@ main.cards-menu {
 }
 
 
+main.cards {
+    display: flex;
+    padding: 32px;
 
-section.card {
+}
+
+main.cards section.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,37 +117,46 @@ section.card {
     background: var(--white);
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    height: 30vh;
+    max-height: 468px;
     margin-left: 32px;
 
 }
 
-section.card:first-child {
+main.cards section.card:first-child {
     margin-left: 0;
 }
 
-section.card .icon {
+main.cards section.card .icon {
     width: 64px;
     height: 64px;
 }
 
-section.card img {
+main.cards section.card img {
     width: 100%;
 }
 
-section.card h3 {
+main.cards section.card h3 {
     font-size: 100%;
     margin: 16px 0;
 }
 
-section.card span {
+main.cards section.card span {
     font-weight: 300;
     max-width: 240px;
     font-size: 80%;
     margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
-section.card button {
+div.text-span {
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+main.cards section.card button {
     padding: 0.5rem 1rem;
     text-transform: uppercase;
     border-radius: 32px;
@@ -160,28 +167,27 @@ section.card button {
     color: var(--white);
 }
 
-
-section.card.teste{
+main.cards section.card.teste{
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-section.card.potencia {
+main.cards section.card.potencia {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-section.card.sem {
+main.cards section.card.sem {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-section.card.jogos {
+main.cards section.card.jogos {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-section.card.fatura {
+main.cards section.card.fatura {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-section.card.fale {
+main.cards section.card.fale {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
@@ -189,15 +195,16 @@ section.card.fale {
 
 
 main.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 10px auto;
     border-right: 2px solid rgb(241, 241, 241);
     border-left: 2px solid rgb(241, 241, 241);
-
+    
 }
 section.conteudo-txt{
-    margin-left: 400px;
-    margin-right: 400px;
-    border: 5px black;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -207,9 +214,27 @@ section.conteudo-txt{
 }
 
 footer {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    padding: 0;
     background: var(--footer-color);
-    bottom: 0%;
+}
+
+nav.rodape-index {
+    display: flex;
+    position: relative;
     width: 100%;
+    background: var(--footer-color);
+}
+
+
+nav.rodape-wifi {
+    width: 100%;
+    background: var(--footer-color);
+    position: relative;
+    margin: 0 auto;
 }
 
 .span-txt {
@@ -227,35 +252,35 @@ t2 {
     font-size: 20px;
 }
 
-@media screen and ( max-width: 720px) {
-    
+@media screen and (max-width: 720px) {
     body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    header {
         width: 100%;
     }
-    
-    nav.container {
+
+    .GigaMais-contact-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        
+        padding: 1px;   
     }
 
-    section.card {
+    .GigaMais-contact-container img {
+       display: none;
+    }
+
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card {
         margin-left: 0;
         margin-bottom: 32px;
     }
 
-    section.card:last-child {
+    main.cards section.card:last-child {
         margin-bottom: 0;
     }
 
-    section.card button {
+    main.cards section.card button {
         font-size: 70%;
     }
 }
