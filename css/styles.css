@@ -119,8 +119,10 @@ main.cards section.card {
     border-radius: 8px;
     max-height: 468px;
     margin-left: 32px;
-
+    height: 290px;
+    width: 290px;
 }
+
 
 main.cards section.card:first-child {
     margin-left: 0;
