@@ -258,10 +258,14 @@ t2 {
         width: 100%;
     }
 
-    .GigaMais-contact-container {
-        display: flex;
-        align-items: center;
-        padding: 1px;   
+    footer {
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
+
+    div.menu {
+       margin-bottom: 0;
     }
 
     .GigaMais-contact-container img {
