@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;600&display=swap');
 
 :root {
     --bg-gray: #f9f6ff;
     --text-gray: #a8a4a4;
-    --color-primary:#000000;
+    --color-primary: #000000;
     --white: #ffff;
     --text-light-gray: rgb(129, 127, 127);
     --color-secundary: #3ca300;
@@ -19,18 +18,28 @@
     font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }
-
 
 header {
     background-color: var(--color-primary);
     color: var(--white);
-    height: 90px;
+    height: 150px;
     display: flex;
     align-items: center;
 }
+
+footer {
+    background: var(--footer-color);
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* fim navbar */
 
 nav {
     display: flex;
@@ -49,27 +58,16 @@ nav a {
     font-weight: 400;
 }
 
-a, a:hover  {
+a,a:hover {
     text-decoration: none;
     color: var(--color-primary);
 }
 
-body {
-    overflow-x: hidden;
-}
-
-div.menu{
-    margin-top: 24vh;
-    margin-bottom: 24vh;
-    display: flex;
-    justify-content: center;
-    
-}
 
 .GigaMais-contact-container {
     display: flex;
-    align-items: center; 
-     
+    align-items: center;
+
 }
 
 .GigaMais-contact-container img {
@@ -87,7 +85,8 @@ div.menu{
     font-weight: 700;
 }
 
-.GigaMais-btn, GigaMais-btn:hover {
+/* button */
+.GigaMais-btn,GigaMais-btn:hover {
     width: 150px;
     height: 40px;
     background-color: var(--color-secundary);
@@ -101,6 +100,18 @@ div.menu{
     border: 0;
 }
 
+/* conteudo index */
+body {
+    overflow-x: hidden;
+}
+
+div.menu {
+    margin-top: 20vh;
+    margin-bottom: 24vh;
+    display: flex;
+    justify-content: center;
+
+}
 
 main.cards {
     display: flex;
@@ -168,7 +179,7 @@ main.cards section.card button {
     color: var(--white);
 }
 
-main.cards section.card.teste{
+main.cards section.card.teste {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
@@ -192,37 +203,6 @@ main.cards section.card.fale {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-
-
-
-main.conteudo-principal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px auto;
-    border-right: 2px solid rgb(241, 241, 241);
-    border-left: 2px solid rgb(241, 241, 241);
-    
-}
-section.conteudo-txt{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    
-}
-
-footer{
-    background: var(--footer-color);
-    width: 100%;
-    height: 150px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 nav.rodape-index {
     display: flex;
     position: relative;
@@ -230,29 +210,26 @@ nav.rodape-index {
     background: var(--footer-color);
 }
 
-
-nav.rodape-wifi {
-    width: 100%;
-    background: var(--footer-color);
-    position: relative;
-    margin: 0 auto;
-}
-
-.span-txt {
-    font-size: 18px;
-    font-weight: 300;
-    margin-left: 30px;
-    margin-right: 30px;
+/* conteudo velocidade */
+.slide-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 30px 80px 30px;
     
 }
-t1 {
-    font-size: 50px;
-    font-weight: 500;
-}
-t2 {
-    font-size: 20px;
+
+.btn-velocidade {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 20px;
+   
 }
 
+/* conteudo responsivo */
 @media screen and (max-width: 720px) {
     body {
         width: 100%;
@@ -263,13 +240,14 @@ t2 {
         width: 100%;
         padding: 0;
     }
-
+    /* conteudo index */
     div.menu {
-       margin-bottom: 0;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
     }
 
     .GigaMais-contact-container img {
-       display: none;
+        display: none;
     }
 
     main.cards {
