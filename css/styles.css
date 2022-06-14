@@ -141,8 +141,8 @@ main.cards section.card:first-child {
 }
 
 main.cards section.card .icon {
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
 }
 
 main.cards section.card img {
@@ -163,6 +163,7 @@ main.cards section.card span {
     margin-right: 16px;
 }
 
+
 div.text-span {
 
     margin-left: 5px;
@@ -170,16 +171,42 @@ div.text-span {
 }
 
 
-main.cards section.card button {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: var(--white);
+section.teste  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+section.potencia  {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+section.sem  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.jogos  {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+section.fatura  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.fale {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
 
 main.cards section.card.teste {
     box-shadow: 20px 20px 50px -30px #5cc753;
@@ -228,12 +255,13 @@ div.rede-social {
 }
 
 /* conteudo velocidade */
-.slide-carousel {
+
+.menu-fast {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 80px 30px 80px 30px;
-    
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 8vh;
 }
 
 .btn-velocidade {
@@ -243,7 +271,11 @@ div.rede-social {
     margin-top: 0;
     margin-bottom: 0;
     gap: 20px;
+    bottom: 0;
 }
+
+/* Fale conosco */
+
 
 
 /* conteudo responsivo */
@@ -291,4 +323,20 @@ div.rede-social {
         width: 32px;
         height: 32px;
     }
+    .menu-fast {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15vh;
+        margin-bottom: 8vh;
+        max-width: 720px;
+        max-height: 720px;
+    }
+
+    .menu-fast img {
+        width: 100%;
+        height: 100%;
+    }
+
+
 }
