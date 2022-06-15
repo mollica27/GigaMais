@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5,h6 {
 header {
     background-color: var(--color-primary);
     color: var(--white);
-    height: 150px;
+    height: 110px;
     display: flex;
     align-items: center;
 }
@@ -33,7 +33,7 @@ header {
 footer {
     background: var(--footer-color);
     width: 100%;
-    height: 110px;
+    height: 90px;
     position: fixed ;
     bottom: 0;
     left: 0;
@@ -108,17 +108,19 @@ body {
 }
 
 div.menu {
-    margin-top: 20vh;
-    margin-bottom: 24vh;
+    margin-top: 17vh;
+    margin-bottom: 17vh;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 main.cards {
     display: flex;
     padding: 32px;
-
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 main.cards section.card {
@@ -251,8 +253,8 @@ div.rede-social {
     padding: 1px;
     display: flex;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
 }
 
 /* conteudo velocidade */
@@ -280,7 +282,7 @@ div.rede-social {
 
 
 /* conteudo responsivo */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 790px) {
     body {
         width: 100%;
     }
@@ -293,7 +295,7 @@ div.rede-social {
     /* conteudo index */
     div.menu {
         margin-top: 10vh;
-        margin-bottom: 5vh;
+        margin-bottom: 25vh;
     }
 
     .GigaMais-contact-container img {
@@ -338,8 +340,8 @@ div.rede-social {
         padding: 1px;
         display: flex;
         align-items: center;
-        width: 32px;
-        height: 32px;
+        width: 22px;
+        height: 22px;
     }
     /* teste de velocidade */
     .menu-fast {
