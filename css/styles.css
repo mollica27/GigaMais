@@ -290,10 +290,17 @@ div.rede-social {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2rem;
     margin-bottom: 10rem;
     gap: 5px;
+}
 
+.btn-fast img {
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
 }
 
 /* conteudo fatura */
@@ -367,8 +374,8 @@ div.rede-social {
         padding: 1px;
         display: flex;
         align-items: center;
-        width: 22px;
-        height: 22px;
+        width: 30px;
+        height: 30px;
     }
     /* teste de velocidade */
     .menu-fast {
