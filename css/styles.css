@@ -318,7 +318,18 @@ div.rede-social {
     padding: 0;
 }
 
-/* conteudo fatura */
+/* conteudo sinal */
+
+
+.conteudo-sinal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
 
 
 /* conteudo responsivo */
@@ -430,6 +441,7 @@ div.rede-social {
         padding: 0;
     }
  
+    /* Conteudo sinal */
 
 
-}
+}   
