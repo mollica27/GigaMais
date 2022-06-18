@@ -299,8 +299,23 @@ div.rede-social {
     padding: 0px;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
     width: 120px;
+    gap: 5px;
+}
+
+.icon-dica{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+.icon-dica img {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    padding: 0;
 }
 
 /* conteudo fatura */
@@ -408,6 +423,20 @@ div.rede-social {
         align-items: center;
     }
 
+    .icon-dica{
+        display: flex;
+        padding: 0;
+        width: 100%;
+        justify-content:space-around;
+        flex-direction: row;
+    }
+    
+    .icon-dica img {
+        display: flex;
+        flex-direction: row;
+        width: 32px;
+        padding: 0;
+    }
  
 
 
