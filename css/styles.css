@@ -307,9 +307,9 @@ div.rede-social {
     display: flex;
     padding: 0;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: space-around;
     flex-direction: row;
-    gap: 70px;
+    
 }
 
 .icon-dica img {
