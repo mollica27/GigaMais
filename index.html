@@ -22,198 +22,230 @@
             <img src="img/gigalogo.webp" alt="gigalogo">
             <div class="GigaMais-contact-container">
                 <img src="img/apple-touch-icon.png" alt="gigatouch">
-                <a href="https://central-assinante.gigamaisfibra.com.br/" class="GigaMais-btn">Central do Cliente</a>
+                <a href="https://central-assinante.gigamaisfibra.com.br/" type="button" class="btn btn-success">Central
+                    do Cliente</a>
             </div>
         </nav>
     </header>
     <!-- menu de cartões -->
     <div class="menu">
         <main id="menu-cards" class="cards">
-            <section class="card teste">
-                <div class="icon">
-                    <img src="img/velo.png" alt="teste-velo">
-                </div>
-                <h3>Velocidade</h3>
-                <!-- Botão para acionar modal -->
-                <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true"data-toggle="modal"
-                data-target="#modalvelocidade">Velocidade</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modalvelocidade" tabindex="-1" role="dialog"
-                    aria-labelledby="modalvelocidade" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalvelocidade">Teste de velocidade como fazer?</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+            <div class="container">
+                <div class="row justify-content-around" style="margin-left: 15rem;">
+                    <div class="col 1">
+                        <section class="card teste">
+                            <div class="icon">
+                                <img src="img/velo.png" alt="teste-velo">
                             </div>
-                            <div class="modal-body">
-                                Clique no botão "Aprenda" e veja como fazer o seu teste velocidade.
+                            <h3>Velocidade</h3>
+                            <!-- Botão para acionar modal -->
+                            <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true"
+                                data-toggle="modal" data-target="#modalvelocidade">Velocidade</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalvelocidade" tabindex="-1" role="dialog"
+                                aria-labelledby="modalvelocidade" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalvelocidade">Teste de velocidade como fazer?
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Clique no botão "Aprenda" e veja como fazer o seu teste velocidade.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Voltar</button>
+                                            <a class="btn btn-success" href="velocidade.html">Aprenda</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-                                <a class="GigaMais-btn" href="velocidade.html">Aprenda</a>
+                        </section>
+                        <section class="card potencia">
+                            <div class="icon">
+                                <img src="img/antena-wifi.png" alt="potencia-wifi">
                             </div>
-                        </div>
+                            <h3>Verifique o sinal</h3>
+                            <!-- Botão para acionar modal -->
+                            <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true"
+                                data-toggle="modal" data-target="#modalwifi">Wi-Fi</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalwifi" tabindex="-1" role="dialog"
+                                aria-labelledby="modalwifi" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalwifi">Sinal de Wi-fi fraco?</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Cliquei no botão "Aprenda" e veja como fazer o teste do seu wifi.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Voltar</button>
+                                            <a class="btn btn-success" href="sinal.html">Aprenda</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="card sem">
+                            <div class="icon">
+                                <img src="img/sem-wifi.png" alt="sem-internet">
+                            </div>
+                            <h3>Sem conexão</h3>
+                            <!-- Botão para acionar modal -->
+                            <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true"
+                                data-toggle="modal" data-target="#modalconexao">Conexão</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalconexao" tabindex="-1" role="dialog"
+                                aria-labelledby="modalconexao" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalconexao">Está sem Conexão? Não se preocupe
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Cliquei no botão "Aprenda" e conheça um pouco sobre seu equipamento e sua
+                                            conexão.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Voltar</button>
+                                            <a class="btn btn-success" href="conexao.html">Aprenda</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
-                </div>
-            </section>
-            <section class="card potencia">
-                <div class="icon">
-                    <img src="img/antena-wifi.png" alt="potencia-wifi">
-                </div>
-                <h3>Verifique o sinal</h3>
-                <!-- Botão para acionar modal -->
-                <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true" data-toggle="modal"
-                    data-target="#modalwifi">Wi-Fi</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modalwifi" tabindex="-1" role="dialog" aria-labelledby="modalwifi"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalwifi">Sinal de Wi-fi fraco?</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+
+                    <div class="col 2">
+                        <section class="card jogos">
+                            <div class="icon">
+                                <img src="img/gamer.png" alt="jogos">
                             </div>
-                            <div class="modal-body">
-                                Cliquei no botão "Aprenda" e veja como fazer o teste do seu wifi.
+                            <h3>Jogos</h3>
+                            <!-- Botão para acionar modal -->
+                            <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true"
+                                data-toggle="modal" data-target="#modaljogos">Jogos</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modaljogos" tabindex="-1" role="dialog"
+                                aria-labelledby="modaljogos" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modaljogos">Seu jogo esta travando?</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Aprenda a verificar a conexão com servidor do seu jogo ou site.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Volar</button>
+                                            <a class="btn btn-success" href="jogos.html">Aprenda agora</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-                                <a class="GigaMais-btn" href="sinal.html">Aprenda</a>
+                        </section>
+                        <section class="card fatura">
+                            <div class="icon">
+                                <img src="img/dollar.png" alt="fatura">
                             </div>
-                        </div>
+                            <h3>Faturas</h3>
+                            <!-- Botão para acionar modal -->
+                            <a href="#" class="GigaMais-btn" role="button" aria-pressed="true" data-toggle="modal"
+                                data-target="#modalfatura">Faturas</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalfatura" tabindex="-1" role="dialog"
+                                aria-labelledby="modalfatura" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalfatura">Não consegue pegar sua fatura?</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Clique no botão "Faturas" e veja no passo a passo como pegar agora mesmo a
+                                            sua
+                                            fatura.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Voltar</button>
+                                            <a href="fatura.html" class="btn btn-success" role="button"
+                                                aria-pressed="true">FATURAS</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="card fale">
+                            <div class="icon">
+                                <img src="img/whats.png" alt="fale conosco">
+                            </div>
+                            <h3>Fale conosco</h3>
+                            <!-- Botão para acionar modal -->
+                            <a href="#" class="GigaMais-btn active" data-toggle="modal" data-target="#modalExemplo"
+                                role="button" aria-pressed="true">Fale Conosco</a>
+                            <!-- Modal -->
+                            <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Entre em contato:</h5>
+                                            <button type="button" class="close" data-dismiss="modal"
+                                                aria-label="Fechar">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Precisando de atendimento? Entre em contato conosco
+                                            através do nosso Whatsapp
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-dark"
+                                                data-dismiss="modal">Voltar</button>
+                                            <a href="https://api.whatsapp.com/send?phone=5512997530395" type="button"
+                                                class="btn btn-outline-success">Whatsapp</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                     </div>
+
                 </div>
-            </section>
-            <section class="card sem">
-                <div class="icon">
-                    <img src="img/sem-wifi.png" alt="sem-internet">
-                </div>
-                <h3>Sem conexão</h3>
-                <!-- Botão para acionar modal -->
-                <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true" data-toggle="modal"
-                    data-target="#modalconexao">Conexão</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modalconexao" tabindex="-1" role="dialog" aria-labelledby="modalconexao"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalconexao">Está sem Conexão? Não se preocupe</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                Cliquei no botão "Aprenda" e conheça um pouco sobre seu equipamento e sua conexão.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-                                <a class="GigaMais-btn" href="conexao.html">Aprenda</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="card jogos">
-                <div class="icon">
-                    <img src="img/gamer.png" alt="jogos">
-                </div>
-                <h3>Jogos</h3>
-                <!-- Botão para acionar modal -->
-                <a href="#" class="GigaMais-btn active" role="button" aria-pressed="true" data-toggle="modal"
-                    data-target="#modaljogos">Jogos</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modaljogos" tabindex="-1" role="dialog" aria-labelledby="modaljogos"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modaljogos">Seu jogo esta travando?</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                Aprenda a verificar a conexão com servidor do seu jogo ou site.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Volar</button>
-                                <a class="GigaMais-btn" href="jogos.html">Aprenda agora</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="card fatura">
-                <div class="icon">
-                    <img src="img/dollar.png" alt="fatura">
-                </div>
-                <h3>Fatura em Aberto</h3>
-                <!-- Botão para acionar modal -->
-                <a href="#" class="GigaMais-btn" role="button" aria-pressed="true" data-toggle="modal"
-                    data-target="#modalfatura">Faturas</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modalfatura" tabindex="-1" role="dialog" aria-labelledby="modalfatura"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="modalfatura">Não consegue pegar sua fatura?</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                Clique no botão "Faturas" e veja no passo a passo como pegar agora mesmo a sua fatura.
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Voltar</button>
-                                <a href="fatura.html" class="GigaMais-btn active" role="button"
-                                    aria-pressed="true">FATURAS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="card fale">
-                <div class="icon">
-                    <img src="img/whats.png" alt="fale conosco">
-                </div>
-                <h3>Fale conosco</h3>
-                <!-- Botão para acionar modal -->
-                <a href="#" class="GigaMais-btn active" data-toggle="modal" data-target="#modalExemplo" role="button"
-                    aria-pressed="true">Fale Conosco</a>
-                <!-- Modal -->
-                <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Entre em contato:</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                Precisando de atendimento? Entre em contato conosco
-                                através do nosso Whatsapp
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Voltar</button>
-                                <a href="https://api.whatsapp.com/send?phone=5512997530395" type="button"
-                                    class="btn btn-outline-success">Whatsapp</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </div>
+
         </main>
+
+
     </div>
+
     <!-- Rodape -->
     <footer>
         <div class="container-fluid">

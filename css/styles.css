@@ -108,20 +108,12 @@ body {
     
 }
 
-div.menu {
-    margin-top: 17vh;
-    margin-bottom: 17vh;
+.row {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    margin-top: 10rem;
+    margin-bottom: 15rem;
+    align-items:center;
 
-main.cards {
-    display: flex;
-    padding: 32px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 main.cards section.card {
@@ -133,9 +125,10 @@ main.cards section.card {
     padding: 1rem 1.5rem;
     border-radius: 8px;
     max-height: 468px;
-    margin-left: 32px;
+    gap: 15px;
     height: 290px;
     width: 290px;
+    margin-bottom: 5rem;
 }
 
 
@@ -339,6 +332,7 @@ div.rede-social {
 @media screen and (max-width: 820px) {
     body {
         width: 100%;
+        height: 100%;
     }
 
     footer {
@@ -347,22 +341,44 @@ div.rede-social {
         padding: 0;
     }
     /* conteudo index */
-    div.menu {
-        margin-top: 10vh;
-        margin-bottom: 25vh;
-    }
+   
 
     .GigaMais-contact-container img {
         display: none;
     }
 
-    main.cards {
-        flex-direction: column;
-    }
 
     main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background: var(--white);
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        max-height: 468px;
+        gap: 5px;
+        height: 60px;
+        width: 60px;
+        margin-bottom: 5rem;
+    }
+
+    .GigaMais-btn,GigaMais-btn{
+        display: none;
+    }
+
+    main.cards section.card .icon {
+        height: 25px;
+        width: 25px;
+    }
+    
+    main.cards section.card img {
+        width: 100%;
+    }
+
+    main.cards section.card h3 {
+        font-size: 5px;
+        margin: 3px 0;
     }
 
     main.cards section.card:last-child {
