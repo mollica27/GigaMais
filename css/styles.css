@@ -326,10 +326,12 @@ div.rede-social {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 50px;
     margin-top: 5rem;
     margin-bottom: 10rem;
+    margin-left: 18rem;
 }
+
+
 
 
 /* conteudo responsivo */
