@@ -350,20 +350,23 @@ div.rede-social {
     div.container {
         display: flex;
         justify-content: space-around;
-        margin-right: 35rem;
+        height: 100%;
+       
+    }
+
+    div.row {
+        display: flex;
+        margin-right: 0;
     }
 
     div.cont-dois {
         display: flex;
-        flex-direction: row;
-        margin-right: 90px;
-        gap: 5px;
+        gap: 10px;
     }
 
     div.cont-um {
         display: flex;
-        flex-direction: row;
-        margin-right: 90px;
+        gap: 10px;
     }
 
     main.cards section.card {
@@ -376,8 +379,8 @@ div.rede-social {
         border-radius: 8px;
         max-height: 468px;
         gap: 5px;
-        height: 100px;
-        width: 100px;
+        height: 105px;
+        width: 105px;
         margin-bottom: 5rem;
     }
 
