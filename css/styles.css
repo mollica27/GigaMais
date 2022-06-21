@@ -108,12 +108,15 @@ body {
     
 }
 
+main.cards {
+    display: flex;
+    flex-direction: row;
+}
+
 .row {
     display: flex;
-    margin-top: 15vh;
-    margin-bottom: 5vh;
-    align-items:center;
-
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 div.cont-um {
@@ -127,6 +130,12 @@ div.cont-dois {
     gap: 10px;
     justify-content: space-around;
     margin-top: 3vh;
+}
+
+div.cont-tres {
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
 }
 
 main.cards section.card {
@@ -217,6 +226,11 @@ section.fale {
     align-items: center;  
 }
 
+section.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
 
 main.cards section.card.teste {
     box-shadow: 20px 20px 50px -30px #5cc753;
@@ -239,6 +253,10 @@ main.cards section.card.fatura {
 }
 
 main.cards section.card.fale {
+    box-shadow: 20px 20px 50px -30px #5cc753;
+}
+
+main.cards section.card.video {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
@@ -328,7 +346,6 @@ div.rede-social {
 
 /* conteudo sinal */
 
-
 .conteudo-sinal {
     display: flex;
     align-items: center;
@@ -337,6 +354,21 @@ div.rede-social {
     margin-top: 5rem;
     margin-bottom: 10rem;
     gap: 5rem;
+}
+/* conteudo conexao */
+
+.conteudo-dica {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+.menu-equipamentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15vh;
 }
 
 
@@ -383,7 +415,12 @@ div.rede-social {
         display: flex;
         gap: 10px;
         justify-content: space-around;
-        margin-top: 3vh;
+        margin-top: 2vh;
+    }
+
+    div.cont-tres {
+        display: flex;
+        margin-bottom: 7vh;
     }
 
     main.cards section.card {
@@ -509,5 +546,26 @@ div.rede-social {
         margin-bottom: 10rem;
         gap: 5rem;
     }
+
+    /* conteudo conexao */
+
+    .menu-equipamentos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15vh;
+    }
+
+    .conteudo-dica {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5vh;
+    }
+    
+
+
+
 
 }   
