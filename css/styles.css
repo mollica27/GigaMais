@@ -111,9 +111,22 @@ body {
 .row {
     display: flex;
     margin-top: 15vh;
-    /* margin-bottom: 2rem; */
+    margin-bottom: 5vh;
     align-items:center;
 
+}
+
+div.cont-um {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+div.cont-dois {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-top: 3vh;
 }
 
 main.cards section.card {
@@ -127,7 +140,7 @@ main.cards section.card {
     max-height: 468px;
     gap: 15px;
     height: 290px;
-    width: 290px;
+    width: 250px;
     margin-bottom: 5rem;
 }
 
@@ -172,6 +185,7 @@ section.teste  {
     justify-content: center;
     align-items: center;
 }
+
 
 section.potencia  {
     display: flex;
