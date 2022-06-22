@@ -29,37 +29,117 @@
     <div class="jumbotron">
         <h1 class="display-4" style="text-align: center;">Teste de Conexão</h1>
         <p class="lead">
-        Separamos um conteudo referente a sua conexão e ao equipamento que está utilizando.
-        <hr class="my-4">
+            Separamos um conteudo referente a sua conexão e ao equipamento que está utilizando.
+            <hr class="my-4">
         <p class="text-sm-left font-weight-light">
             <a href="index.html" class="btn btn-outline-dark btn-lg" role="button" aria-pressed="true">Inicio</a>
     </div>
     <nav class="conteudo-dica">
-        <div class="card bg-dark text-white">
-            <img class="card-img" src="img2/Conexao/Los-roteador.jpg" alt="Imagem do card">
-            <div class="card-img-overlay">
-                <h5 class="card-title">
-                    <div class="d9FyLd"><span style="color: #ff0000;"><strong>Luz vermelha</strong></span>&nbsp;<span
-                            style="text-decoration: underline;"><span
-                                style="color: #000000; text-decoration: underline;">los no roteador</span></span></div>
-                </h5>
-                <p class="card-text">
-                <p style="text-align: left;"><span class="hgKElc">Dentre as principais causas est&aacute; algum dano da
-                        fibra ou ainda o seu rompimento.&nbsp;<span
-                            style="color: #ff0000;"><strong>Vermelha</strong></span>&nbsp;significa que o
-                        seu&nbsp;<strong>modem</strong>&nbsp;n&atilde;o est&aacute; autenticado no provedor, <span
-                            style="text-decoration: underline; color: #ffffff;"><span>por outro lado quando
-                                a&nbsp;<strong>luz</strong>&nbsp;ficar laranja significa que o roteador est&aacute;
-                                conectado &agrave; internet, essa por sua vez tamb&eacute;m pode ficar
-                                branca</span></span></span>
-                </p>    
+        <div class="alert alert-danger" role="alert">
+            <div class="card bg-dark text-white">
+                <img class="card-img" src="img2/Conexao/Los-roteador.jpg" alt="Imagem do card">
+                <div class="card-img-overlay">
+                    <h5 class="card-title">
+                        <h1 class="entry-title">O que &eacute; <span style="color: #ff0000;">los</span> no seu
+                            equipamento?</h1>
+                    </h5>
+                    <p class="card-text">
+                        <!-- Botão para acionar modal -->
+                        <button type="button" class="btn btn-danger" style="margin-top: 2rem;" data-toggle="modal"
+                            data-target="#modalloss">
+                            Aprenda agora
+                        </button>
+
+                        <!-- Modal -->
+                    <div class="modal fade" id="modalloss" tabindex="-1" role="dialog" aria-labelledby="modalloss"
+                        aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title text-black" id="modalloss">
+                                        <h2><span style="color: #000000;">O que significa</span> <span
+                                                style="color: #ff0000;">LOS?</span></h2>
+                                    </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="alert alert-success" role="alert">
+                                        <p>Em primeiro lugar, &eacute; importante saber que los &eacute; representados
+                                            pelo LED, que significa Loss of Signal, o que significa perda de sinal. A
+                                            luz vermelha do seu modem, significa de modo geral que n&atilde;o
+                                            est&aacute; autenticado no provedor. Esta por sua vez, pode ser uma falha
+                                            tempor&aacute;ria e por isso voc&ecirc; dever&aacute; verificar em quais
+                                            hor&aacute;rios acontece o problema e caso este seja frequente.</p>
+                                        <p>A ONU &eacute; conectada com o seu conector de fibra na porta PON. Para
+                                            verificar, em primeiro lugar &eacute; necess&aacute;rio que voc&ecirc; evite
+                                            manusear a fibra, pois ela &eacute; extremamente sens&iacute;vel e o seu
+                                            n&uacute;cleo pode se quebrar com muita facilidade.
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-success" role="alert">
+                                        <h2>Passo a passo para verifica&ccedil;&atilde;o do <span
+                                                style="color: #ff0000;">LED LOS</span></h2>
+                                        <p>Se voc&ecirc; verificar um LED vermelho piscando, e esta luz for vermelho,
+                                            significa que a ONU est&aacute; sem comunica&ccedil;&atilde;o atrav&eacute;s
+                                            da fibra &oacute;ptica e essas podem ter algumas causas. Dentre as
+                                            principais causas da falta de comunica&ccedil;&atilde;o pela fibra
+                                            &oacute;ptica est&aacute; a possibilidade da fibra est&aacute; rompida, ou
+                                            ainda alguma danifica&ccedil;&atilde;o no conector interno ou no conector
+                                            externo. Neste &uacute;ltimo caso ser&aacute; necess&aacute;rio entrar em
+                                            contato com a empresa para enviar um t&eacute;cnico para a an&aacute;lise ou
+                                            a troca do roteador.</p>
+                                    </div>
+                                    <div class="alert alert-success" role="alert">
+                                        <h2>Realizando a verifica&ccedil;&atilde;o</h2>
+                                        <p>Para verificar os <strong><span style="color: #ffff00;">LEDs</span></strong>
+                                            do seu roteador nesses casos, o LED 01 representa o Power e este deve estar
+                                            ligado, o LED 02 representa o wi-fi 2.4Ghz e este para o seu perfeito
+                                            funcionamento, tamb&eacute;m deve estar ligado, j&aacute; o LED 03 deve
+                                            apresentar um wi-fi 5Ghz, caso o seu roteador tem uma tecnologia dual band.
+                                            Por fim &eacute; fundamental que o LED 04 esteja com a luz verde piscando,
+                                            este link representa a conex&atilde;o com a internet, por outro lado se ela
+                                            estiver piscando na cor laranja significa que o seu roteador n&atilde;o
+                                            est&aacute; conectado &agrave; internet.</p>
+                                        <p>Por fim, se voc&ecirc; verificar uma luz <strong><span
+                                                    style="color: #ff0000;">vermelha LED</span></strong> piscando no seu
+                                            roteador, significa que a ONU est&aacute; sem comunica&ccedil;&atilde;o
+                                            atrav&eacute;s da fibra &oacute;ptica. Dentre as principais causas
+                                            est&aacute; algum dano da fibra ou ainda o seu rompimento. Vermelha
+                                            significa que o seu modem n&atilde;o est&aacute; autenticado no provedor,
+                                            por outro lado quando a luz ficar laranja significa que o roteador
+                                            est&aacute; conectado &agrave; internet, essa por sua vez tamb&eacute;m pode
+                                            ficar branca.
+                                        </p>
+                                    </div>
+                                    <div class="alert alert-danger" role="alert">
+                                        Vale ressaltar que os equipamentos podem vir com a ordem dos
+                                        &ldquo;leds&rdquo; e nomes diferentes dependendo de marca e modelo. Fiquem
+                                        atentos.
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </p>
+
+                </div>
             </div>
+
         </div>
+
     </nav>
     <!-- menu cartões -->
     <main class="menu-equipamentos">
         <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
-            <div class="card-header">Cabeçalho</div>
+            <div class="card-header"><img src="img2/Conexao/fiberhome.jpg" class="img-fluid" style="width: 100%;
+                border-radius: 1rem; padding: 0;" alt="Imagem responsiva">
+                </div>
             <div class="card-body">
                 <h5 class="card-title">Título de Card Secondary</h5>
                 <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o
@@ -88,11 +168,6 @@
         <div class="container-fluid">
             <div class="rodape-logo">
                 <img src="img/logo2.png" alt="logo2">
-            </div>
-            <div>
-                <span>
-                    <a href="https://www.gigamaisfibra.com.br/">Giga+Fibra 2022</a>
-                </span>
             </div>
             <div class="rede-social">
                 <a href="https://www.facebook.com/gigamaisfibra/"><img src="img/face-icon.svg"></a>
