@@ -5,7 +5,7 @@
     --bg-gray: #f9f6ff;
     --text-gray: #a8a4a4;
     --color-primary: #000000;
-    --white: #ffff;
+    --white: rgb(255, 255, 255);
     --text-light-gray: rgb(129, 127, 127);
     --color-secundary: #3ca300;
     --footer-color: rgb(231, 225, 225);
@@ -116,7 +116,7 @@ main.cards {
 .row {
     display: flex;
     margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 div.cont-um {
@@ -129,7 +129,7 @@ div.cont-dois {
     display: flex;
     gap: 10px;
     justify-content: space-around;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
 
 div.cont-tres {
@@ -226,11 +226,6 @@ section.fale {
     align-items: center;  
 }
 
-section.video {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
 
 main.cards section.card.teste {
     box-shadow: 20px 20px 50px -30px #5cc753;
@@ -256,9 +251,6 @@ main.cards section.card.fale {
     box-shadow: 20px 20px 50px -30px #5cc753;
 }
 
-main.cards section.card.video {
-    box-shadow: 20px 20px 50px -30px #5cc753;
-}
 
 .container-fluid {
     display: flex;
@@ -370,9 +362,6 @@ div.rede-social {
     gap: 10px;
     margin-bottom: 15vh;
 }
-
-
-
 
 /* conteudo responsivo */
 @media screen and (max-width: 470px) {
