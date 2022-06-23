@@ -363,6 +363,46 @@ div.rede-social {
     margin-bottom: 15vh;
 }
 
+/* conteudo jogos */ 
+
+section .container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.conteudo-jogos {
+    text-align: left;
+    padding: 60px;
+    margin: 10% 10% auto; 
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 15vh;
+}
+.tracert {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.ping-jogos{
+    width: 100% ;
+    max-width: 300px;
+    max-height: 300px;
+}
+.up-jogos {
+    width: 100% ;
+    max-width: 500px;
+    max-height: 300px;
+
+}
+.down-jogos {
+    width: 100% ;
+    max-width: 500px;
+    max-height: 300px;
+}
+
 /* conteudo responsivo */
 @media screen and (max-width: 470px) {
     body {
