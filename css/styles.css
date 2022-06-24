@@ -369,8 +369,22 @@ div.rede-social {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 15vh;
+    gap: 15px;
+    margin-bottom: 20vh;
+}
+
+div.equip:hover {
+    box-shadow: 30px 30px 50px -30px #3ca300;
+}
+
+div.equip {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    max-width: 420px;
+    max-height: 490px;
+    border-radius: 1rem;
 }
 
 /* conteudo jogos */ 
@@ -412,6 +426,7 @@ section .container {
     max-width: 500px;
     max-height: 300px;
 }
+
 
 /* conteudo responsivo */
 @media screen and (max-width: 470px) {
@@ -592,17 +607,32 @@ section .container {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
         margin-bottom: 15vh;
+        width: 100%;
     }
 
+    
     .conteudo-dica {
         display: flex;
         justify-content: center;
         margin-bottom: 5vh;
     }
-    
+
+    div.equip {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 700;
+        max-width: 100px;
+        max-height: 150px;
+    }
+
+    div.equip:hover {
+        box-shadow: 20px 20px 50px -30px #3ca300;
+    }
+
     /* conteudo jogos  */
 
     section .container {
