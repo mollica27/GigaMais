@@ -354,8 +354,24 @@ div.rede-social {
     flex-direction: row;
     margin-top: 5rem;
     margin-bottom: 10rem;
-    gap: 5rem;
+    gap: 15px;
+   
 }
+
+.wifi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 420px;
+    max-height: 490px;
+    border-radius: 1rem;
+}
+
+.wifi:hover {
+    box-shadow: 30px 30px 70px -30px var(--color-primary)
+}
+
+
 /* conteudo conexao */
 
 .conteudo-dica {
@@ -594,11 +610,24 @@ section .container {
     .conteudo-sinal {
         display: flex;
         align-items: center;
-        justify-content: center;
-        flex-direction: column;
         margin-top: 5rem;
-        margin-bottom: 10rem;
-        gap: 5rem;
+        margin-bottom: 15rem;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .wifi {
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 700;
+        max-width: 100px;
+        max-height: 300px;
+        border-radius: 1rem;
+    }
+    
+    .wifi:hover {
+        box-shadow: 30px 30px 70px -30px var(--color-primary)
     }
 
     /* conteudo conexao */
