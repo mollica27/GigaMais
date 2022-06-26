@@ -395,14 +395,12 @@ div.rede-social {
 }
 
 div.equip:hover {
-    box-shadow: 30px 30px 50px -30px var(--color-primary);
+    box-shadow: 30px 30px 70px -30px var(--color-primary);
 }
 
 div.equip {
     display: flex;
     align-items: center;
-    font-size: 30px;
-    font-weight: 700;
     max-width: 420px;
     max-height: 490px;
     border-radius: 1rem;
