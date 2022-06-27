@@ -363,6 +363,34 @@ div.rede-social {
    
 }
 
+.alerta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+}
+
+.alerta-sinal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #a1a19f, #2e2c2c);
+    max-height: 320px;
+    border-radius: 1rem;
+    width: 55rem;
+    height: 100%;
+    padding-top: 32px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.alerta-sinal:hover {
+    background: linear-gradient(to right, #4abb15, #616060);
+    color: var(--color-primary);
+}
+
 .wifi {
     display: flex;
     align-items: center;
