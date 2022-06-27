@@ -380,7 +380,7 @@ div.rede-social {
     border-radius: 1rem;
     width: 55rem;
     height: 100%;
-    padding-top: 32px;
+    padding-top: 10px;
     color: var(--white);
     font-size: 16px;
     font-weight: 700;
@@ -410,7 +410,7 @@ div.rede-social {
 .conteudo-dica {
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: 15vh;
     flex-direction: column;
 }
 
@@ -419,7 +419,7 @@ div.rede-social {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
 }
 
 div.equip:hover {
@@ -638,6 +638,12 @@ section .container {
  
     /* Conteudo sinal */
 
+    .alerta-sinal {
+     display: flex;
+     width: 100%;
+     text-align: center;
+    }
+    
     .conteudo-sinal {
         display: flex;
         align-items: center;
