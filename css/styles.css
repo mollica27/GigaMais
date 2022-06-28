@@ -111,17 +111,18 @@ body {
 .rompimento {
     display: flex;
     width: 100%;
+    height: 150px;
     margin-top: 25px;
     max-width: 100%;
     background: rgb(236, 226, 78);
 }
 
 .rompimento img {
-    padding: 1px;
     display: flex;
     align-items: center;
-    width: 32px;
-    height: 32px;
+    margin-top: 15px;
+    width: 50px;
+    height: 50px;
 }
 
 main.cards {
@@ -506,6 +507,19 @@ section .container {
     /* conteudo index */
    
 
+    .rompimento-body {
+        font-size: 11px;
+    }
+    
+    .rompimento img {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        width: 50px;
+        height: 50px;
+    }
+
+
     .GigaMais-contact-container img {
         display: none;
     }
@@ -699,7 +713,7 @@ section .container {
     .conteudo-dica {
         display: flex;
         justify-content: center;
-        margin-bottom: 5vh;
+        margin-bottom: 12vh;
     }
 
     div.equip {
