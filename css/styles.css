@@ -108,6 +108,22 @@ body {
     
 }
 
+.rompimento {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    max-width: 100%;
+    background: rgb(236, 226, 78);
+}
+
+.rompimento img {
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+}
+
 main.cards {
     display: flex;
     flex-direction: row;
