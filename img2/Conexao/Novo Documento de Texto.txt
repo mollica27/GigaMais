@@ -10,3 +10,26 @@ Lista de equipamentos Modem / ONU
 
 3 - Huawei EG8145V5 
 
+AVISO IMPORTANTE
+CARO CLIENTE,
+A NAXI disponibiliza em sua residência/empresa, por padrão dois equipamentos:
+1. ONU (Modem Óptico / Dispositivo Receptor do Cabo de Fibra);
+1. Roteador Wifi B/G/N/AC Conexões simultâneas de 2.4Ghz 300 Mbps e 5Ghz 133 Mbps
+para um total de 733 Mbps de largura de banda disponível.
+Estes equipamentos foram escolhidos e configurados por nossa equipe especializada, oferecendo a
+melhor performance possível.
+Recomendamos que os acesso aos dispositivos da NAXI sejam feitos com o máximo de cautela,
+evitando erros de configuração que possam vir a causar falhas no seu aceso ou que causem riscos à
+segurança da sua conexão.
+Como cuida dos equipamentos da NAXI?
+1. Respeite o limite de 20 conexões simultâneas;
+1. Não instale o roteador em locais fechados (armário, balcão, criado-mudo), nem perto de
+equipamentos elétricos potentes ou que emitam sinal de rádio (telefone sem fio, caixas de
+som Bluetooth, micro-ondas e etc.);
+1. Evite colocar o roteador em locais com umidade e alta temperatura;
+1. Ajude a distribuição do sinal de rádio do roteador: instale em locais altos e centrais e
+mantenha as antenas na posição vertical;
+1. Reinicie seu equipamento pelo menos uma vez por semana para garantir que o equipamento
+funcione sempre bem, para reiniciar basta retirar o roteador da tomada por cerca de 30
+segundos e depois colocar novamente.
+
