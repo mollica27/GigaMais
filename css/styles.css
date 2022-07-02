@@ -730,6 +730,11 @@ section .container {
         box-shadow: 20px 20px 50px -30px #3ca300;
     }
 
+    div.aviso {
+        font-size: 8px;
+        
+    }
+
     /* conteudo jogos  */
 
     section .container {
