@@ -110,14 +110,16 @@
                                     / USB / LAN / Telefone</div>
                                 <ul>
                                     <li>"Power" O dispositivo est&aacute; ligado.</li>
-                                    <li>"PON" LED indicador de status do registro.</li>
-                                    <li>"LOS" Sinal &oacute;ptico LED indicador de status.</li>
-                                    <li>"INTERNET" Banda larga LED indicador de status.</li>
+                                    <li>"PON" (LED verde) indicador de status O ONT foi ativado</li>
+                                    <li>"LOS" (Vermelha) piscando o aparelho nao recebeu sinal &oacute;ptico. (Apagado)
+                                        O dispositivo recebeu o sinal &oacute;ptico sinal.</li>
+                                    <li>"INTERNET" (Led Verde) Liga&ccedil;&atilde;o com a banda larga rede conectado.
+                                    </li>
                                     <li>"WLAN1,WLAN2" 2.4G/5G LED indicador de status do sinal sem fio.</li>
-                                    <li>"WPS" Status WPS LED indicador.</li>
-                                    <li>"USB" LED indicador USB.</li>
-                                    <li>"LAN1 to LAN4" Ethernet LED indicador de status da interface.</li>
-                                    <li>"Phone" Porta telef&ocirc;nica LED indicador de status.</li>
+                                    <li>"WPS" O WPS est&aacute; ativado e o Wi-Fi terminal foi conectado ao ONT.</li>
+                                    <li>"USB" LED indicador USB Conectado</li>
+                                    <li>"LAN1 to LAN4" A interface &eacute; conectada ao terminal do usu&aacute;rio</li>
+                                    <li>"Phone" Porta telef&ocirc;nica LED indicador de status Conectado</li>
                                 </ul>
                             </div>
                             <div class="alert alert-success" role="alert">
@@ -196,7 +198,7 @@
                                     <li>O led &ldquo;POWER&rdquo; que indica se a unidade est&aacute; ligada.</li>
                                     <li>o led &ldquo;LINK&rdquo; que indica se h&aacute; conex&atilde;o com a OLT.</li>
                                     <li>O led &ldquo;AUTH&rdquo; que indica se o ONT passou corretamente na faixa e
-                                        est&aacute; autorizado na</li>
+                                        est&aacute; autorizado</li>
                                     <li>Ethernet</li>
                                     <li>4 leds &ldquo;DATOS1, DATOS2, IPTV1, IPTV2&rdquo; eles acender&atilde;o se
                                         houver um dispositivo conectado a eles no n&iacute;vel de porta FXS
@@ -218,7 +220,7 @@
                             <div class="alert alert-success" role="alert">
                                 <img src="img2/Conexao/Nokia/portas.png" class="img-fluid" style="width: 100%;
                                 border-radius: 1rem;" alt="Imagem responsiva">
-                                <p><strong><span class="Y2IQFc" lang="pt">A imagem a seguir mostra o layout da porta na
+                                <p><strong><span class="Y2IQFc" lang="pt">A imagem a cima mostra o layout da porta na
                                             parte traseira de cada ONT.<br />Fisicamente tem as seguintes
                                             portas:</span></strong></p>
                                 <ul>
@@ -280,11 +282,12 @@
                                 <p>Indicadores:<br />Power / PON / LOS / LAN1 A LAN4 / TEL / USB / WLAN / WPS</p>
                                 <ul>
                                     <li>"Power" O dispositivo est&aacute; ligado.</li>
-                                    <li>"PON" LED indicador de status do registro.</li>
-                                    <li>"LOS" Sinal &oacute;ptico LED indicador de status.</li>
-                                    <li>"LAN1 AO LAN4" Ethernet LED indicador de status da interface.</li>
-                                    <li>"TEL" Porta telef&ocirc;nica LED indicador de status.</li>
-                                    <li>"USB" LED indicador USB.</li>
+                                    <li>"PON" (LED verde) indicador de status O ONT foi ativado</li>
+                                    <li>"LOS" (Vermelha) piscando o aparelho nao recebeu sinal &oacute;ptico. (Apagado)
+                                        O dispositivo recebeu o sinal &oacute;ptico sinal.</li>
+                                    <li>"LAN1 to LAN4" A interface &eacute; conectada ao terminal do usu&aacute;rio</li>
+                                    <li>"TEL" Porta telef&ocirc;nica LED indicador de conexão.</li>
+                                    <li>"USB" LED indicador USB conectada</li>
                                     <li>"WLAN" 2.4G/5G LED indicador de status do sinal sem fio.</li>
                                     <li>"WPS" Status WPS LED indicador.</li>
                                 </ul>
@@ -296,11 +299,17 @@
                                     <li>"USB" Conecta ao dispositivo de armazenamento de interface USB.</li>
                                     <li>"Telefone" Conecta ao telefone do assinante.</li>
                                     <li>"LAN1 / LAN4" Conex&atilde;o de Rede</li>
-                                    </ul>
+                                </ul>
                             </div>
                             <div class="alert alert-success" role="alert">
                                 <img src="img2/Conexao/Huawei/lateral-b4.png" class="img-fluid" style="width: 100%;
                                 border-radius: 1rem; margin-bottom: 1rem;" alt="Imagem responsiva">
+                                <ul>
+                                    <li>"WLAN" Bot&atilde;o de fun&ccedil;&atilde;o WLAN Ativa/desativa a
+                                        fun&ccedil;&atilde;o WLAN.</li>
+                                    <li>"WPS" Bot&atilde;o de fun&ccedil;&atilde;o WPS Ativa/desativa a criptografia de
+                                        dados WLAN.</li>
+                                </ul>
                                 <img src="img2/Conexao/Huawei/Huawei-t5.jfif" class="img-fluid" style="width: 100%;
                                 border-radius: 1rem;" alt="Imagem responsiva">
                                 Interface Óptica: SC/APC, Classe B+
@@ -319,7 +328,7 @@
         </div>
     </main>
     <nav class="conteudo-dica">
-        <div class="alert"style="background: linear-gradient(to right,#FF4B4B, #ff0000);" role="alert">
+        <div class="alert" style="background: linear-gradient(to right,#FF4B4B, #ff0000);" role="alert">
             <div class="card bg-dark text-white">
                 <img class="card-img" src="img2/Conexao/Los-roteador.jpg" alt="Imagem do card">
                 <div class="card-img-overlay">
