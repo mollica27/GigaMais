@@ -543,7 +543,7 @@ section .container {
         display: flex;
         justify-content: space-around;
         height: 100%;
-       
+        margin-top: 3vh;
     }
 
     div.row {
@@ -561,13 +561,13 @@ section .container {
         display: flex;
         gap: 10px;
         justify-content: space-around;
-        margin-top: 2vh;
+        margin-top: 10vh;
     }
 
-    div.cont-tres {
+    /* div.cont-tres {
         display: flex;
         margin-bottom: 7vh;
-    }
+    } */
 
     main.cards section.card {
         display: flex;
