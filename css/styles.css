@@ -390,13 +390,39 @@ div.rede-social {
     width: 100%;
     justify-content: space-around;
     flex-direction: row;
-    
+    margin-bottom: 32px;
 }
 
 .icon-dica img {
     display: flex;
     width: 70px;
     padding: 0;
+}
+
+/* conteudo teste-velo */
+
+.menu-velocidade {
+    background-color:  rgb(248, 248, 248);
+    height: 120px;
+    padding-top: 2vh;
+}
+
+.teste-eaq{
+    text-align: left;
+    padding: 60px;
+    margin-top: 5vh;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 35vh;
+    
+}
+
+.conteudo-eaq {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-top: 0;
 }
 
 /* conteudo sinal */
