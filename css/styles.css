@@ -407,6 +407,14 @@ div.rede-social {
     padding-top: 2vh;
 }
 
+.titulo-velo {
+    font-size: 35px;
+    justify-content: center;
+    margin-top: 2rem;
+    border-bottom: solid;
+    margin-bottom: 2rem;
+}
+
 .teste-eaq{
     text-align: left;
     padding: 60px;
