@@ -320,69 +320,7 @@ div.rede-social {
     height: 32px;
 }
 
-/* conteudo velocidade */
-
-.menu-fast {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 2vh;
-}
-
-.fast:hover {
-    box-shadow: 20px 20px 50px -30px var(--color-primary);
-    background: linear-gradient(to right, #d1f0d1,#8df517);
-    
-
-}
-
-.card-body img {
-    display: flex;
-    margin-right: 1px;
-    padding: 0;
-    flex-direction: column;
-    align-items: center;
-    border: 5px 5px 5px 5px;
-    width: 50px;
-    bottom: 0;
-    cursor: pointer;
-}
-
-.mais-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    border-radius: 1rem;
-    cursor: pointer;
-    padding: 2px;
-}
-
-.mais-info:hover {
-    background: linear-gradient(to right, #ffffff,#ffffff);
-
-}
-
-.btn-fast {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 10rem;
-    gap: 5px;
-}
-
-.btn-fast img {
-    display: flex;
-    padding: 0px;
-    align-items: center;
-    flex-direction: column;
-    width: 120px;
-    gap: 5px;
-}
+/* conteudo teste-velo */
 
 .icon-dica{
     display: flex;
@@ -398,8 +336,6 @@ div.rede-social {
     width: 70px;
     padding: 0;
 }
-
-/* conteudo teste-velo */
 
 .menu-velocidade {
     background-color:  rgb(248, 248, 248);
@@ -704,37 +640,8 @@ section .container {
         width: 30px;
         height: 30px;
     }
-    /* teste de velocidade */
-    .menu-fast {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 5vh;
-    }
-
-
-    .menu-fast img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .card-body img {
-        display: flex;
-        margin-right: 1px;
-        padding: 5px;
-        flex-direction: column;
-        align-items: center;
-        border: 5px 5px 5px 5px;
-        width: 80px;
-        bottom: 0;
-    }
     
-    .mais-info {
-        display: flex;
-        align-items: center;
-    }
+    /* conteudo teste-velo */
 
     .icon-dica{
         display: flex;
@@ -750,6 +657,14 @@ section .container {
         flex-direction: row;
         width: 32px;
         padding: 0;
+    }
+
+    .teste-eaq {
+        font-size: 15px;
+    }
+
+    .titulo-velo {
+        font-size: 20px;
     }
  
     /* Conteudo sinal */
