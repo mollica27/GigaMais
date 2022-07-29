@@ -379,6 +379,16 @@ div.rede-social {
 
 /* conteudo sinal */
 
+.conteudo-wifi {
+    text-align: left;
+    padding: 60px;
+    margin: 10% 10% auto;
+    margin-top: 5vh;
+    border: 2px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 35vh;
+}
 
 .conteudo-sinal {
     display: flex;
@@ -416,11 +426,12 @@ div.rede-social {
 .conteudo-conexao {
     text-align: left;
     padding: 60px;
+    margin: 10% 10% auto;
     margin-top: 5vh;
     border: 2px solid rgb(235, 235, 235);
     border-radius: 5px;
     background-color: rgb(248, 248, 248);
-    margin-bottom: 35vh;
+    margin-bottom: 10vh;
     
 }
 
